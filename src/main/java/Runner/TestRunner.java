@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Selenium_Workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\deals.feature" // path of feature files
+		features = "C:\\Selenium_Workspace\\FreeCrmBDDFramework\\src\\main\\java\\Features\\dealsmap.feature" // path of feature files
 		,glue= {"stepDefinition"} // path of step definition file
 		,plugin = {"pretty","html:test-output","json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"} // generate html file which give better output. 
 		,monochrome = true //display the console output in proper readable format
